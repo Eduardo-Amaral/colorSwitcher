@@ -4,6 +4,7 @@
 }
 body{
     background-color: rgb(59, 59, 59);
+    overflow-x: hidden;
 }
 
 .nav{
@@ -27,7 +28,7 @@ input:hover{
 }
 
 #trocarimg{
-    box-shadow: white 1px 1px 10px;
+    border: outset 3px rgb(255, 255, 255);
     margin: 150px 450px;
     height:50vh;
     width:50vw;
