@@ -1,22 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(59, 59, 59);
+}
 
-.imagens{
-    display: grid;
-    grid-template-columns: 900px;
+.nav{
+    display: flex;
     position:relative;
+    top:50px;
+    left:500px;
 }
 
 input{
     padding:45px;
+    width: 100px;
+    height: 100px;
     font: 30px 'Courier New', Courier, monospace;
+    border-radius: 50%;
+    border: solid 1px rgb(0, 0, 0);
+    margin-right:27px
+}
+input:hover{
+    border: solid 3px rgb(255, 255, 255);
 }
 
 #trocarimg{
-    position:absolute;
-    right:200px;
-    width:600px;
-    height:900px;
+    box-shadow: white 1px 1px 10px;
+    margin: 150px 450px;
+    height:50vh;
+    width:50vw;
+    user-select: none;
 }
 
-h1{
-    text-align: center;
+#b1{
+    background-image: url(colors/black.png);
+}
+#b2{
+    background-image: url(colors/blue.png);
+}
+#b3{
+    background-image: url(colors/red.png);
+}
+#b4{
+    background-image: url(colors/yellow.png);
+}
+#b5{
+    background-image: url(colors/orange.png);
+}
+#b6{
+    background-image: url(colors/pink.png);
+}
+#b7{
+    background-image: url(colors/green.png);
 }
