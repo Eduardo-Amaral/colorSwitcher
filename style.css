@@ -1,0 +1,22 @@
+
+.imagens{
+    display: grid;
+    grid-template-columns: 900px;
+    position:relative;
+}
+
+input{
+    padding:45px;
+    font: 30px 'Courier New', Courier, monospace;
+}
+
+#trocarimg{
+    position:absolute;
+    right:200px;
+    width:600px;
+    height:900px;
+}
+
+h1{
+    text-align: center;
+}
